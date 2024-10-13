@@ -7,7 +7,7 @@ import { FaXmark } from "react-icons/fa6";
 import { useEffect, useState } from "react";
 import { LuSun } from "react-icons/lu";
 import useFetchData from "@/hooks/useFetchData";
-import Logo from "@/public/Logo.png";
+import Logo from "@/public/logoDark.png";
 import Image from "next/image";
 
 

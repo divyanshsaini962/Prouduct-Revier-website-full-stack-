@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import Loading from "@/components/Loading";
 import { useEffect } from 'react';
 
+
 export default function Login() {
   const { data: session, status } = useSession();
   const router = useRouter();
@@ -25,6 +26,7 @@ export default function Login() {
   }
   
 
+  
   if (status === "loading") {
     return (
       <div className="loadingdata flex flex-col flex-center wh_100">
@@ -47,7 +49,7 @@ export default function Login() {
         alt="image"
       />
       <h1>Welcome Admin of the tech blog service.</h1>
-      <p>Visit our main website <a href="https://www.ashishsharmablog.tech">Ashish sharma blog</a></p>
+      <p>Visit our main website <a href="https://www.ashishsharmablog.tech">Divyanshu Saini</a></p>
       <button onClick={login} className="mt-2">Login with google</button>
     </div>
   );

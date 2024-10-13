@@ -143,7 +143,7 @@ export default function Home() {
                         <div className="blogaimg">
                           <Image
                             src={AuthorI}
-                            alt="Author Ashish Sharma"
+                            alt="Divyanshu Saini"
                             width={50}
                             height={50}
                             style={{
